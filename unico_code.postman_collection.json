@@ -1,0 +1,269 @@
+{
+	"id": "61c13f3a-43aa-fe32-16b6-4a4617f005ac",
+	"name": "unico_code",
+	"description": "",
+	"order": [
+		"714f9245-632e-6002-d90a-bbfd7e18b628",
+		"fc1e7bc9-ac87-6a41-b947-a09cb6620f13",
+		"f043699e-1f36-d8e2-5048-2807d48a6022",
+		"01c82508-1fe1-baba-32c5-24ad72cf49df"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1643721274018,
+	"owner": "1838043",
+	"public": false,
+	"requests": [
+		{
+			"id": "01c82508-1fe1-baba-32c5-24ad72cf49df",
+			"headers": "Authorization: Bearer 5|Qc2jdywoDlX7syNFuDg2J3uCe7q3dsyOKPAz18Ey\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 5|Qc2jdywoDlX7syNFuDg2J3uCe7q3dsyOKPAz18Ey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/testlaravellogic/public/api/getdetail",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "payee",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1643888876285,
+			"name": "getdetail",
+			"description": "",
+			"collectionId": "61c13f3a-43aa-fe32-16b6-4a4617f005ac",
+			"responses": []
+		},
+		{
+			"id": "714f9245-632e-6002-d90a-bbfd7e18b628",
+			"headers": "//Content-Type: application/json\n//Authorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "61c13f3a-43aa-fe32-16b6-4a4617f005ac",
+			"data": [
+				{
+					"key": "name",
+					"value": "anna",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "a@a.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "confirm_password",
+					"value": "admin123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1643721570448,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f043699e-1f36-d8e2-5048-2807d48a6022",
+			"headers": "Authorization: Bearer 5|Qc2jdywoDlX7syNFuDg2J3uCe7q3dsyOKPAz18Ey\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 5|Qc2jdywoDlX7syNFuDg2J3uCe7q3dsyOKPAz18Ey",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/testlaravellogic/public/api/addexpense",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "61c13f3a-43aa-fe32-16b6-4a4617f005ac",
+			"data": [
+				{
+					"key": "payee",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "partner",
+					"value": "2,3,4,1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "part",
+					"value": "40,20,20,20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amount",
+					"value": "400",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "addexpense",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1643886047639,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fc1e7bc9-ac87-6a41-b947-a09cb6620f13",
+			"headers": "//Content-Type: application/json\n//Authorization: \n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/testlaravellogic/public/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "61c13f3a-43aa-fe32-16b6-4a4617f005ac",
+			"data": [
+				{
+					"key": "name",
+					"value": "anna",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "a@a.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "confirm_password",
+					"value": "admin123",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"name": "login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1643722916352,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
