@@ -7,6 +7,41 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## HOW TO RUN CODE
+
+composer update 
+
+php artisan migrate
+
+API Doc added into code 
+
+i.e. unico_code.postman_collection.json
+
+1. 
+http://localhost/testlaravellogic/public/api/addexpense
+
+payee:1
+type:1
+partner:2,3,4
+part:40,20,20,20
+amount:100
+
+2. http://localhost/testlaravellogic/public/api/getdetail
+
+payee:1
+user:3
+
+
+Here :
+ - Payee - how pay the bill
+ - Type: type of expense (1. EQUAL, 2. EXACT or 3.PERCENT)
+ - partner : people to used the expense including self also
+ - part : used for EXACT amount and for PERCENT - percentage
+ - amount : total spend.
+
+
+  
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
